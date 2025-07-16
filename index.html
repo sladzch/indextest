@@ -1,112 +1,81 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Crypto Start — Твій шлях у світ криптовалют</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мой Лендинг</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0d0d0d;
-      color: #f0f0f0;
-    }
-
-    header {
-      background: linear-gradient(135deg, #1e1e1e, #121212);
-      padding: 60px 20px;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
     }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+    .container {
+      max-width: 500px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.1);
     }
 
-    header p {
-      font-size: 1.2rem;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
       color: #ccc;
     }
 
-    .cta-button {
-      margin-top: 30px;
-      padding: 15px 30px;
-      font-size: 1rem;
-      background-color: #29b6f6;
-      color: white;
-      border: none;
+    .social-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
       border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s;
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      transition: 0.3s ease;
     }
 
-    .cta-button:hover {
-      background-color: #0288d1;
+    .social-buttons a i {
+      margin-right: 8px;
     }
 
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
+    .telegram { background: #0088cc; }
+    .instagram { background: #e1306c; }
+    .twitter { background: #1da1f2; }
+    .youtube { background: #ff0000; }
 
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .feature {
-      background: #1c1c1c;
-      border-radius: 10px;
-      padding: 20px;
-      width: 250px;
-    }
-
-    .feature h3 {
-      color: #29b6f6;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #111;
-      color: #666;
-      font-size: 0.9rem;
+    .social-buttons a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Test</h1>
-  <p>Простий спосіб увійти у світ криптовалют</p>
-  <button class="cta-button">Почати зараз</button>
-</header>
-
-<section>
-  <h2>Чому обирають нас?</h2>
-  <div class="features">
-    <div class="feature">
-      <h3>Легкий старт</h3>
-      <p>Навіть новачки зможуть розібратися за кілька хвилин.</p>
-    </div>
-    <div class="feature">
-      <h3>Безпека</h3>
-      <p>Ваші дані та активи — під надійним захистом.</p>
-    </div>
-    <div class="feature">
-      <h3>Актуальні знання</h3>
-      <p>Ми оновлюємо інформацію щодня, щоб ви були в курсі.</p>
+  <div class="container">
+    <h1>Добро пожаловать!</h1>
+    <p>Следите за нами в социальных сетях:</p>
+    <div class="social-buttons">
+      <a href="https://t.me/yourchannel" class="telegram" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+      <a href="https://instagram.com/yourprofile" class="instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://twitter.com/yourprofile" class="twitter" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://youtube.com/yourchannel" class="youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
     </div>
   </div>
-</section>
-
-<footer>
-  © 2025 Crypto Start. Всі права захищені.
-</footer>
-
 </body>
 </html>
+
+
